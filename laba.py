@@ -29,8 +29,8 @@ class Reminder:
     def add_reminder(self, task, reminder_time):
         self.reminders.append((task, reminder_time));
 
-        def get_reminders(self):
-            return self.reminders;
+    def get_reminders(self):
+        return self.reminders;
 
 class Category:
     def __init__(self, name):
